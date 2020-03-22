@@ -8,7 +8,7 @@ kali-desktop-live
 # For the complete list see: https://tools.kali.org/kali-metapackages
 # kali-linux-default
 # kali-linux-large
-kali-linux-everything
+# kali-linux-everything
 # kali-tools-top10
 
 # Graphical desktop
