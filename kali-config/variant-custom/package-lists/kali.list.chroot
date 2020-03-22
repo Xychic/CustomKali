@@ -16,3 +16,9 @@ kali-desktop-kde
 
 # Stuff I Like
 neofetch
+
+# Stuff for building
+curl
+git
+live-build
+cdebootstrap
