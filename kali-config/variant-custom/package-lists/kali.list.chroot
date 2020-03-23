@@ -13,6 +13,7 @@ kali-linux-default
 
 # Graphical desktop
 kali-desktop-kde
+wmctrl
 
 # Stuff I Like
 neofetch

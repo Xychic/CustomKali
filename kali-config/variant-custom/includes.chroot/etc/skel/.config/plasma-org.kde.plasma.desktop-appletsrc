@@ -48,10 +48,6 @@ global=Alt+F1
 [Containments][2][Applets][3][Shortcuts]
 global=Alt+F1
 
-[Containments][2][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
-
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.taskmanager
@@ -59,6 +55,9 @@ plugin=org.kde.plasma.taskmanager
 [Containments][2][Applets][5][Configuration][ConfigDialog]
 DialogHeight=535
 DialogWidth=720
+
+[Containments][2][Applets][5][Configuration][General]
+launchers=applications:org.kde.dolphin.desktop,applications:firefox-esr.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -84,7 +83,7 @@ DialogHeight=600
 DialogWidth=170
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;8
+AppletOrder=3;5;6;8
 
 [Containments][7]
 activityId=

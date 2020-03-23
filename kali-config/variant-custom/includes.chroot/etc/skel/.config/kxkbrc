@@ -1,8 +1,8 @@
 [Layout]
 DisplayNames=
-LayoutList=us
+LayoutList=gb
 LayoutLoopCount=-1
-Model=
+Model=pc101
 ResetOldOptions=false
 ShowFlag=false
 ShowLabel=true

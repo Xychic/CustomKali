@@ -1,11 +1,14 @@
 [PlasmaTransientsConfig]
-PreloadWeight=42
+PreloadWeight=34
 lastScreen=0
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=36
 
 [PlasmaViews][Panel 2][Horizontal800]
+thickness=36
+
+[PlasmaViews][Panel 2][Vertical600]
 thickness=36
 
 [ScreenConnectors]
