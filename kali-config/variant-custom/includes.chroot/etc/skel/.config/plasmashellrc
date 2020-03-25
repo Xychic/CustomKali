@@ -1,3 +1,6 @@
+[PlasmaRunnerManager]
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
 [PlasmaTransientsConfig]
 PreloadWeight=34
 lastScreen=0
