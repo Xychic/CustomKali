@@ -1,7 +1,42 @@
 [ActionPlugins][0]
 MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
-wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+lock widgets=true
+manage activities=true
+remove=true
+run associated application=true
+
+[ActionPlugins][0][wheel:Vertical;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+lock widgets=true
+manage activities=true
+remove=true
+run associated application=true
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
@@ -81,7 +116,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][ConfigDialog]
-DialogHeight=600
+DialogHeight=1080
 DialogWidth=170
 
 [Containments][2][General]
