@@ -15,7 +15,7 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Create a grid of 9x9 virtual desktops
 - [x] Add startup script to start in middle virtual desktop
 - [x] Change username to be 'Kali'
-- [x] Add VSCode to the packages
+- [x] Add VSCode and neofetch to the packages
 - [x] Remove BIOS beep on start-up
 - [x] Remove scrolling changing desktops
 - [x] Add natural scrolling on touchpads
@@ -24,3 +24,4 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [ ] Set backlight brightness to 50% by default
 - [ ] Remove sleep option from 'Leave' screen
 - [x] Set closing lid to cause laptop to lock instead of sleep
+- [x] Update neofetch config
