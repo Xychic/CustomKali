@@ -19,7 +19,7 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Remove BIOS beep on start-up
 - [x] Remove scrolling changing desktops
 - [x] Add natural scrolling on touchpads
-- [ ] Set time zone to "Europe/London"
+- [x] Set time zone to "Europe/London"
 - [ ] Edit grub theme
 - [ ] Set backlight brightness to 50% by default
 - [ ] Remove sleep option from 'Leave' screen
