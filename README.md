@@ -25,6 +25,6 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [ ] Remove sleep option from 'Leave' screen
 - [x] Set closing lid to cause laptop to lock instead of sleep
 - [x] Update neofetch config
-- [ ] Add some virtualisation software
-- [ ] Add useful alias to `.bashrc`
-- [ ] Add exa
+- [x] Add some virtualisation software
+- [x] Add useful alias to `.bashrc`
+- [x] Add exa
