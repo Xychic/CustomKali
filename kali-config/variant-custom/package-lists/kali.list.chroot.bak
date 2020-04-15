@@ -160,6 +160,9 @@ wmctrl
 # Stuff I Like
 neofetch
 code
+qemu-system
+aqemu
+checksec
 
 # Stuff for building
 curl
