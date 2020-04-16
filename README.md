@@ -28,4 +28,4 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Add some virtualisation software
 - [x] Add useful alias to `.bashrc`
 - [x] Add exa
-- [ ] Add Microsoft package source to remove VSCode file
+- [x] Add hook to download VSCode

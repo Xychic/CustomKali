@@ -2,28 +2,19 @@
 kali-linux-core
 kali-desktop-live
 
-# Kali applications
-#<package>
-# You can customize the set of Kali metapackages (groups of tools) to install
-# For the complete list see: https://tools.kali.org/kali-metapackages
-# kali-linux-default
-# kali-linux-large
-# kali-linux-everything
-# kali-tools-top10
+# Kali-Linux-Everything
+kali-linux-core
 kali-linux-default
 kali-linux-large
-
-
-
-kali-defaults
-kali-root-login
-desktop-base
+# Kali-linux-nethunter
+	kali-themes
+qt5ct
+qt5-gtk2-platformtheme
 aircrack-ng
 apache2
 armitage
 autossh
 backdoor-factory
-bdfproxy
 beef-xss
 burpsuite
 dbd
@@ -32,9 +23,9 @@ dnsmasq
 dnsutils
 dsniff
 ettercap-text-only
+# ettercap-graphical
 exploitdb
 florence
-
 gpsd
 hostapd
 isc-dhcp-server
@@ -58,26 +49,24 @@ php
 pixiewps
 postgresql
 ptunnel
-python-dnspython
-python-lxml
-
-python-m2crypto
-python-mako
-python-netaddr
-python-pcapy
-python-pip
-python-setuptools
-python-twisted
+python3-dnspython
+python3-lxml
+python3-m2crypto
+python3-mako
+python3-netaddr
+python3-pcapy
+python3-pip
+python3-setuptools
+python3-twisted
 recon-ng
 rfkill
 socat
 sox
 sqlmap
 sslsplit
-sslstrip
 tcpdump
 tcptrace
-tightvncserver
+tigervnc-standalone-server
 tinyproxy
 tshark
 wifite
@@ -85,7 +74,7 @@ wipe
 wireshark
 wpasupplicant
 zip
-
+# Kali-linux-nethunter
 kali-tools-802-11
 kali-tools-bluetooth
 kali-tools-database
@@ -99,7 +88,6 @@ kali-tools-information-gathering
 kali-tools-passwords
 kali-tools-post-exploitation
 kali-tools-reporting
-
 kali-tools-reverse-engineering
 kali-tools-rfid
 kali-tools-sdr
@@ -113,44 +101,42 @@ kali-tools-web
 kali-tools-windows-resources
 kali-tools-wireless
 android-sdk
-device-pharmer
-exploitdb-bin-sploits
-exploitdb-papers
-freeradius
-
-
-htshells
-ident-user-enum
-ismtp
-linux-exploit-suggester
-openvas
-parsero
-payloadsallthethings
-python-halberd
-
-set
-shellnoob
-shellter
-teamsploit
-veil
-
-websploit
 bruteforce-salted-openssl
 brutespray
 capstone-tool
 changeme
 chaosreader
 crack
+device-pharmer
 dislocker
+exploitdb-bin-sploits
+exploitdb-papers
+freeradius
 goldeneye
+htshells
+ident-user-enum
+ismtp
+kali-community-wallpapers
+kali-legacy-wallpapers
 knocker
+linux-exploit-suggester
 nmapsi4
 o-saft
+openvas
+parsero
+payloadsallthethings
+phpggc
 pnscan
 pompem
 princeprocessor
+set
 shed
+shellnoob
+shellter
+teamsploit
 testssl.sh
+veil
+websploit
 wig
 
 # Graphical desktop
