@@ -8,7 +8,7 @@ kali-linux-default
 kali-linux-large
 # Kali-linux-nethunter
 	kali-themes
-#	qt5ct
+#	qt5ct			# Break icons (No idea)
 #	qt5-gtk2-platformtheme
 	aircrack-ng
 	apache2
@@ -23,7 +23,7 @@ kali-linux-large
 	dnsutils
 	dsniff
 	ettercap-text-only
-	# ettercap-graphical
+	# ettercap-graphical	# Causes weird dependency issues
 	exploitdb
 	florence
 	gpsd

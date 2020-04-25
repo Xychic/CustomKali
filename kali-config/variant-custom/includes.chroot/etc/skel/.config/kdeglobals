@@ -116,7 +116,7 @@ Theme=breeze-dark
 
 [KDE]
 ColorScheme=Breeze
-LookAndFeelPackage=windy
+LookAndFeelPackage=org.kde.breezedark.desktop
 contrast=4
 widgetStyle=Breeze
 
