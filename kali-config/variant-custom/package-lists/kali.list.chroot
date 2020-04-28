@@ -12,7 +12,7 @@ neofetch
 qemu-system
 aqemu
 checksec
-	chntpw
+chntpw
 
 # Stuff for building
 curl

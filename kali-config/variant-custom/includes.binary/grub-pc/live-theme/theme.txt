@@ -1,7 +1,7 @@
 desktop-image: "../splash.png"
 title-color: "#ffffff"
 title-font: "DejaVu Sans Bold 16"
-title-text: ""
+title-text: "This is the title"
 message-font: "Unifont Regular 16"
 terminal-font: "Unifont Regular 16"
 
@@ -25,7 +25,7 @@ terminal-font: "Unifont Regular 16"
         height = 35
         align = "center"
         color = "#ffffff"
-        text = "Kali Linux Live Boot Menu"
+        text = "Kali Linux Live - grub-binary"
         font = "DejaVu Sans Bold 16"
 }
 
