@@ -127,3 +127,6 @@ alias mount="sudo mount"
 alias umount="sudo umount" 
 
 alias test="echo test"
+
+bind 'set show-all-if-ambiguous off'
+bind 'TAB:menu-complete'

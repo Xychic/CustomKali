@@ -20,7 +20,7 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Remove scrolling changing desktops
 - [x] Add natural scrolling on touchpads
 - [x] Set time zone to "Europe/London"
-- [ ] Edit grub theme
+- [x] Edit grub theme
 - [ ] Set backlight brightness to 50% by default
 - [ ] Remove sleep option from 'Leave' screen
 - [x] Set closing lid to cause laptop to lock instead of sleep
@@ -29,3 +29,4 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Add useful alias to `.bashrc`
 - [x] Add exa
 - [x] Add hook to download VSCode
+- [x] Add tab complete to `.bashrc`
