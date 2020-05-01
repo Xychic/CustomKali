@@ -2,8 +2,8 @@
 # Designed for any resolution
 
 # Global Property
-title-text: "This is the title"
-desktop-image: "background.jpg"
+title-text: ""
+desktop-image: "background.png"
 desktop-color: "#000000"
 terminal-font: "Terminus Regular 14"
 terminal-box: "terminal_box_*.png"
