@@ -21,7 +21,7 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Add natural scrolling on touchpads
 - [x] Set time zone to "Europe/London"
 - [x] Edit grub theme
-- [ ] Set backlight brightness to 50% by default
+- [x] Set backlight brightness to 50% by default
 - [ ] Remove sleep option from 'Leave' screen
 - [x] Set closing lid to cause laptop to lock instead of sleep
 - [x] Update neofetch config
