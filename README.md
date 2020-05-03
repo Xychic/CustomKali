@@ -30,3 +30,4 @@ Forked from https://gitlab.com/kalilinux/build-scripts/live-build-config on 21/0
 - [x] Add exa
 - [x] Add hook to download VSCode
 - [x] Add tab complete to `.bashrc`
+- [x] Add hook to install ghidra

@@ -1,0 +1,18 @@
+# !/bin/sh
+
+printf "Begin download of ghidra...\n"
+if wget -O /var/tmp/ghidra.zip https://ghidra-sre.org/ghidra_9.1.2_PUBLIC_20200212.zip; then
+    printf "Create install folder...\n" &&
+    mkdir -p /usr/share/ghidra &&
+    printf "Unzipping \"ghidra.zip\"" &&
+    unzip /var/tmp/ghidra.zip -d /usr/share/ghidra &&
+    folder=$(ls /usr/share/ghidra) &&
+    printf "Create symlink from \"/bin/ghidra\" to \"/usr/share/ghidra/$folder/ghidrarRun\"\n" &&
+    sudo ln -s /usr/share/ghidra/$folder/ghidraRun /bin/ghidra &&
+    printf "Removing temporary files...\n" &&
+    rm -fv /var/tmp/ghidra.zip &&
+    printf "Done!\n"
+else
+    printf 'Wget failed with error code "%d" (check the manual)\n' "$?" >&2
+    exit 1
+fi
