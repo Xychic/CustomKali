@@ -14,7 +14,9 @@ aqemu
 checksec
 chntpw
 
-# Stuff for building
+# Other requirements
+default-jdk
+default-jre
 curl
 git
 live-build
