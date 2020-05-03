@@ -1,7 +1,7 @@
-# !/bin/sh
+#!/bin/sh
 
 printf "Begin download of ghidra...\n"
-if wget -O /var/tmp/ghidra.zip https://ghidra-sre.org/ghidra_9.1.2_PUBLIC_20200212.zip; then
+if curl -o /var/tmp/ghidra.zip -L https://ghidra-sre.org/ghidra_9.1.2_PUBLIC_20200212.zip; then
     printf "Create install folder...\n" &&
     mkdir -p /usr/share/ghidra &&
     printf "Unzipping \"ghidra.zip\"" &&

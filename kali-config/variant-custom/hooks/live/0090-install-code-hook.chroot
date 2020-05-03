@@ -2,7 +2,7 @@
 
 printf 'Begin download of code.deb...\n'
 
-if wget -O /var/tmp/code.deb http://go.microsoft.com/fwlink/?LinkID=760868; then	# Using curl to download the latest code .deb file 
+if curl -o /var/tmp/code.deb -L http://go.microsoft.com/fwlink/?LinkID=760868; then	# Using curl to download the latest code .deb file 
     printf 'Start install of code...\n'
     sudo dpkg -i /var/tmp/code.deb &&	# Install the package 
     printf 'Pull in any missing dependencies...\n' &&
