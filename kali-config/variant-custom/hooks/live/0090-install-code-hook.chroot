@@ -11,6 +11,6 @@ if curl -o /var/tmp/code.deb -L http://go.microsoft.com/fwlink/?LinkID=760868; t
     printf 'Removing temporary .deb file...\n' &&
     sudo rm -fv /var/tmp/code.deb	# Remove the .deb file as it is no longer needed
 else 
-    printf 'Wget failed with error code "%d" (check the manual)\n' "$?" >&2
+    printf 'Curl failed with error code "%d" (check the manual)\n' "$?" >&2
     exit 1
 fi
